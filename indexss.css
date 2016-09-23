@@ -7,7 +7,9 @@ h1{
 	background-color: black;
 }
 #cv{
-	text-shadow: 580px 420px 20px #lightgray;
+	background-color: lightgray;
+	width: 420px;
+	height: 580px;
 	float: right;
 }
 .blue_font{
