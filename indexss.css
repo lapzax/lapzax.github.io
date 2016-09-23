@@ -7,11 +7,12 @@ h1{
 	background-color: black;
 }
 #cv{
-	background-color: lightgray;
-	width: 420px;
-	height: 580px;
-	left: 900px;
-	position: absolute;
+	//background-color: lightgray;
+	//width: 420px;
+	//height: 580px;
+	//left: 900px;
+	//position: absolute;
+	text-shadow: 580px 420px 20px #lightgray;
 }
 .blue_font{
 	color: blue;
