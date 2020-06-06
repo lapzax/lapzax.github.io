@@ -1,11 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<title>Singing</title>
-	<link rel="stylesheet" type="text/css" href="indexss.css">
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Live Alive Passionate Zippy Abundant X</title>
+	<!--<link rel="stylesheet" type="text/css" href="indexss.css">-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant" />
+        <link href="cssmenu/cssmenu.css" rel="stylesheet" />
 </head>
 <body>
+	<div id="cssmenu">
+        	<ul>
+        		<li><a href="#">Portfolio</a></li>
+        		<li><a href="#">Creative</a></li>
+        		<li><a href="#">Studio</a></li>
+        		<li><a href="#">Press</a></li>
+        		<li><a href="#">Contact</a></li>
+        	</ul>
+	</div>
+	<script>
+    	function toggleCssMenu(icon) {
+        	var cssmenu = document.getElementById('cssmenu');
+        	if (icon.className.indexOf('active') == -1) {
+            		icon.className = 'menu-icon active';
+			cssmenu.style.display = "block";
+			setTimeout(function(){cssmenu.className = 'active';},0);            
+       		}else {
+            		icon.className = 'menu-icon';
+			cssmenu.className = '';
+			setTimeout(function(){cssmenu.style.display = "none";},411); 
+        	}
+    	}
+	</script>
 	<h1 title="Singing Lee">李欣穎</h1>
 	<div id="intro">
 		<p>哈囉！初次見面！<br>
